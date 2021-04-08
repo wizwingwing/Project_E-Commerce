@@ -1,0 +1,81 @@
+.flashsale.contianer{
+    margin: 0;
+    background: #8AC6D1;
+}
+/* header */
+.flash-sale.header{
+    margin: 0;
+    background: #fff;
+    width: 20%;
+    height: 50%;
+}
+.flash-sale.header1{
+    margin: 0;
+    display: flex;
+    justify-content: center ;
+}
+.flash-sale.header2{
+    display: flex;
+    justify-content: center ;
+}
+
+/* TEXT */
+.flash-sale.header1 h3{
+    position: relative;
+    top: 7rem;
+}
+
+.flash-sale.header2 h2{
+    margin:  0 0 10rem 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+/* TEXT */
+
+.flash-logo1{
+    margin-bottom: 5rem;
+}
+
+.flash-logo2{
+    margin-bottom: 14rem;
+}
+
+/* header */
+
+/* body */
+.flash-sale.body
+{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flash-sale.body1{
+    margin:0 
+}
+.flash-sale.body2{
+    margin:0 
+}
+
+/* text */
+.text-blue
+{
+    margin: -30rem 20rem;
+    font-weight: bolder;
+    color: #194689 ;
+    font-size: 1.5em;
+}
+.text-white{
+    margin: -30rem -20rem 0 0;
+    font-weight: bolder;
+    color: #fff ;
+    font-size: 1.7em;
+}
+/* text */
+.Time-flash{
+    margin: -485px 3rem 0 0;
+   
+}
+/* body */

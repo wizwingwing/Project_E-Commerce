@@ -1,0 +1,22 @@
+
+.navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #ffb6b9;
+    width: 100%;
+    height: 745px;
+    color: rgb(201, 201, 201);
+}
+.Nav { 
+    margin: 2rem;
+}
+.Nav a{ 
+    margin: 2rem;
+}
+.Nav-logo {
+    margin: 1.5rem 0 0 2.5rem;
+}
+.slide{
+    margin-top: -40rem;
+}

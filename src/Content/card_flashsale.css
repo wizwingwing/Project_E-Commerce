@@ -1,0 +1,11 @@
+.Card_flashsale.Container{
+    margin: 0;
+    padding: 0;
+
+}
+
+.Card.header{
+    width: 30%;
+    background: #333;
+
+}

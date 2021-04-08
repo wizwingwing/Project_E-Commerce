@@ -1,0 +1,38 @@
+
+.Time.Contianer{
+    margin: 0;
+    padding: 0;
+}
+.Time{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Time-hr{
+    display: flex;
+    justify-content: center;
+    background: #AD305A ;
+    border: #AD305A 6px solid; 
+}
+.Time-min{
+    display: flex;
+    justify-content: center;
+    background: #AD305A ;
+    border: #AD305A 6px solid; 
+}
+.Time-sec{
+    display: flex;
+    justify-content: center;
+    background: #AD305A ;
+    border: #AD305A 6px solid; 
+}
+.time.text{
+    font-weight: bolder;
+    color: #FEAE73 ;
+    font-size: 1.7em;
+}
+.Text-Black{
+    font-weight: bolder;
+    color: #333 ;
+    font-size: 1.7em;
+}
