@@ -1,11 +1,31 @@
 .Card_flashsale.Container{
     margin: 0;
     padding: 0;
+    
 
 }
 
 .Card.header{
-    width: 30%;
-    background: #333;
-
+    background: rgb(64, 238, 11);
 }
+/* text */
+.text-head{
+    font-size: 2em;
+    color: #000;
+    font-weight: bolder;
+}
+.price{
+    font-size: 1.5em;
+    color: #FF5207;
+    font-weight: bolder;
+}
+.sale{
+    color: #e5e5e5e5;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+.sale-percent{
+    color: red;
+    font-weight: bolder;
+}
+/* text */
