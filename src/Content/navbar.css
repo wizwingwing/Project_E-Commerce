@@ -20,3 +20,6 @@
 .slide{
     margin-top: -40rem;
 }
+.link_nav:hover{
+    color: rgb(28, 5, 156);
+}

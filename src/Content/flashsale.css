@@ -1,13 +1,14 @@
 .flashsale.contianer{
     margin: 0;
     background: #8AC6D1;
+    height: 40rem;
 }
 /* header */
 .flash-sale.header{
     margin: 0;
     background: #fff;
     width: 20%;
-    height: 50%;
+    height: 40rem;
 }
 .flash-sale.header1{
     margin: 0;
@@ -15,31 +16,23 @@
     justify-content: center ;
 }
 .flash-sale.header2{
+    margin-top: -15rem;
     display: flex;
-    justify-content: center ;
+    justify-content: space-between;
 }
 
 /* TEXT */
 .flash-sale.header1 h3{
-    position: relative;
-    top: 7rem;
+    margin: 13rem;
+
 }
 
-.flash-sale.header2 h2{
-    margin:  0 0 10rem 0 ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-}
+
 
 /* TEXT */
 
-.flash-logo1{
-    margin-bottom: 5rem;
-}
-
 .flash-logo2{
-    margin-bottom: 14rem;
+    margin-top: -8rem;
 }
 
 /* header */
@@ -47,35 +40,58 @@
 /* body */
 .flash-sale.body
 {
-    margin: 0;
+    margin-top: -37rem;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .flash-sale.body1{
-    margin:0 
+    margin-left:20rem; 
 }
 .flash-sale.body2{
-    margin:0 
+    margin-left:30rem;  
 }
 
 /* text */
 .text-blue
 {
-    margin: -30rem 20rem;
     font-weight: bolder;
     color: #194689 ;
     font-size: 1.5em;
 }
 .text-white{
-    margin: -30rem -20rem 0 0;
     font-weight: bolder;
     color: #fff ;
     font-size: 1.7em;
 }
+.Button-All-Sale button{
+    font-size: 2em;
+    background: #FEAE73;
+    border-radius: 198.5px;
+    text-decoration: none;
+    border: none;
+    width: 357px;
+    height: 68px;
+}
+.Button-All-Sale button:hover{
+    background: #da3357;
+}
 /* text */
 .Time-flash{
-    margin: -485px 3rem 0 0;
-   
+    margin-right:3rem; 
 }
+.Card-Button{
+    margin-top: 1rem;
+    margin-left:21rem; 
+    width: 70%;
+    
+}
+.Button-All-Sale{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
 /* body */

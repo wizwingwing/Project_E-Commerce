@@ -1,6 +1,7 @@
 import React from 'react'
 import flashLogo from '../imgs/flash-logo.svg'
 import Time_flashsale from './Time_flashsale'
+import Card_flashsale from './Card_flashsale'
 
 export default function Flashsale() {
     return (
@@ -28,8 +29,18 @@ export default function Flashsale() {
                 </div> 
 
                 <div className="Time-flash">
-                <Time_flashsale/>
+                    <Time_flashsale/>
                 </div>
+            </div> 
+
+            <div className="Card-Button">
+                <div className="Card">
+                    <Card_flashsale/>
+                </div>
+                <div className="Button-All-Sale">
+                    <button>ดูสินค้าทั้งหมด</button>
+                </div>
+
             </div>
         </div>
     )

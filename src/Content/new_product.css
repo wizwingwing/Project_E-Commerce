@@ -1,0 +1,35 @@
+.New_product.Container{
+    margin: 0;
+    padding: 0;
+    background: #FFB392;
+    box-sizing: border-box;
+}
+.New_product.Contain{
+    position: relative;
+    margin: 0;
+    padding: 2.5rem 3rem;
+}
+
+.New_product.header1{
+    position: absolute;
+    z-index: 10;
+}
+.New_product.header2{
+    margin-left: 8rem;
+    margin-top: -3.5rem;
+    z-index: 1;
+}
+/* text */
+.PD.text-white {
+    font-size: 3em;
+}
+.PD.text-black{
+    color: black;
+    font-weight: bolder;
+    font-size: 3em;
+}
+/* text */
+.card_newproduct{
+    display: flex;
+    justify-content: center;
+}

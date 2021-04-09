@@ -1,6 +1,7 @@
 import Navbar from './Component/Navbar'
 import Flashsale from './Component/Flashsale'
-import Card_flashsale from './Component/Card_flashsale'
+import New_Product from './Component/New_Product'
+
 
 
 
@@ -13,7 +14,7 @@ function App() {
       <div>
         <Navbar/>
         <Flashsale/>
-        <Card_flashsale/>
+        <New_Product/>
       </div>
     </Router>
   );

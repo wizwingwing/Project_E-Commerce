@@ -1,12 +1,32 @@
 .Card_flashsale.Container{
     margin: 0;
     padding: 0;
-    
-
+    background-color: transparent;
 }
 
+.card-flash.item{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-gap: 1rem;
+}
+
+.Card-flash.contain{
+    background: #ffff;
+    height: 25rem;
+}
 .Card.header{
-    background: rgb(64, 238, 11);
+    margin: 1.5rem;
+}
+.Card.body{
+    margin-top: -1.5rem ;
+    margin-left: 20px;
+}
+.Sale-body{
+    display: flex;
+}
+.Button-Detail{
+    margin-top: -3rem;
+    margin-left: 16rem;
 }
 /* text */
 .text-head{
@@ -25,7 +45,21 @@
     text-decoration: line-through;
 }
 .sale-percent{
+    margin-left: 1rem;
     color: red;
     font-weight: bolder;
+}
+.Button-Detail button{
+    font-size: 20px;
+    background: #ECBA16;
+    width: 159px;
+    height: 47px;
+    border-radius: 42px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.Button-Detail button:hover{
+    background: rgb(57, 20, 220);
 }
 /* text */

@@ -1,0 +1,33 @@
+.Card_Newproduct.Container{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3.5rem;
+}
+.card-new-product.contain{
+    background: #fff;
+    width: 359px;
+    height: 304px;
+}
+.card-newproduct.header{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Text.PD{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.Text.Price{
+    display: flex;
+    justify-content: center;
+    color: #FF5207;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
