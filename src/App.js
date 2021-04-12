@@ -7,15 +7,17 @@ import New_Product from './Component/New_Product'
 
 import './Content'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Test from './test';
 
 function App() {
   return (
     <Router>
-      <div>
+      {/* <div>
         <Navbar/>
         <Flashsale/>
         <New_Product/>
-      </div>
+      </div> */}
+      <Test />
     </Router>
   );
 }
