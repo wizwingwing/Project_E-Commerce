@@ -1,0 +1,47 @@
+.Footer_Follow.Container{
+    margin: 0;
+    padding: 0;
+    background: #FFB6B9;
+}
+.Footer_Follow.Contain{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.footer-follow.header{
+    margin: 0;
+    display: flex;
+}
+
+.follow.copyright{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+
+}
+/* text */
+.footer-follow.header p{
+    margin-top: .5rem;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.copyright{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.copyright-store p{
+    color: #333;
+}
+
+/* text */
+
+
+/* icon */
+.footer-follow.icon{
+    margin-top: .5rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* icon */

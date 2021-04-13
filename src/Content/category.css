@@ -1,0 +1,44 @@
+.Category-Container{
+    margin: 0;
+    padding: 0;
+    background: #BBDED6 ;
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+}
+.Category-header{
+    margin-top: 1rem;
+    width: 15% ;
+}
+.Category-header p{
+    color: #121947;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+.Category-contain{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.Category-body{
+    position: relative;
+    width: 156px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 82px;
+    cursor: pointer;
+
+}
+
+.category-body-icon{
+    margin: 5px 0 0 1px;
+    width: 156px;
+    height: 64px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+

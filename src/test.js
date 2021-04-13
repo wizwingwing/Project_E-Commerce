@@ -36,7 +36,7 @@ export default function Test() {
 
     return (
         <div style={{ display:"flex", justifyContent:"space-around" ,  flexWrap: "wrap" }}>
-           {data.filter((item,index) => index === 2 ).map(item => item.name)[0]}
+           {data.filter((item,index) => index === 0 ).map(item => item.name)[0]}
         </div>
     )
 }
